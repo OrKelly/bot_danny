@@ -20,6 +20,10 @@ pip install -r requirements.txt
 ```
 python app/main.py
 ```
+Принудительно запустить таску по парсингу биржи ЦБ РФ можно при помощи команды:
+```
+python app/tasks/get_currency_task.py
+```
 
 Для запуска с помощью Docker используйте команды:
 ```
